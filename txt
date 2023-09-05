@@ -1,0 +1,23 @@
+let songIndex = 0;
+let audioElement = new Audio('music.MP3');
+let masterPlay = document.getElementById('masterPlay');
+let myProgessBar = document.getElementById('myProgressBar');
+let songs = [
+    { songName: 'Mann Mayal', filePath: 'music.MP3', CoverPath: 'picture/ql.jpg' },
+    { songName: 'Mann Mayal', filePath: 'music.MP3', CoverPath: 'picture/ql.jpg' },
+    { songName: 'Mann Mayal', filePath: 'music.MP3', CoverPath: 'picture/ql.jpg' },
+    { songName: 'Mann Mayal', filePath: 'music.MP3', CoverPath: 'picture/ql.jpg' },
+    { songName: 'Mann Mayal', filePath: 'music.MP3', CoverPath: 'picture/ql.jpg' },
+    { songName: 'Mann Mayal', filePath: 'music.MP3', CoverPath: 'picture/ql.jpg' },
+
+]
+
+//handle play pause click
+masterPlay.addEventListener('click', () => {
+    if (audioElement.paused || audioElement.currentTime <= 0) {
+
+    }
+});
+myProgessBar.addEventListener('timeupdate', () => {
+
+})
